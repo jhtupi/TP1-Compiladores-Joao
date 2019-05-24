@@ -1,0 +1,5 @@
+# dune build src/driver.exe
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune0f0b62.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/duneac3aaa.output
+$ (cd _build/default && /usr/bin/ocamllex.opt -q -o src/lexer.ml src/lexer.mll)
