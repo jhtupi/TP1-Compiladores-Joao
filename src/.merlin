@@ -1,4 +1,9 @@
 EXCLUDE_QUERY_DIR
+B /home/joao/.opam/bcc328/lib/ppx_deriving
+B /home/joao/.opam/bcc328/lib/result
 B ../_build/default/src/.driver.eobjs/byte
+S /home/joao/.opam/bcc328/lib/ppx_deriving
+S /home/joao/.opam/bcc328/lib/result
 S .
+FLG -ppx ''\''/media/joao/Joao/UFOP/9o Período/Compiladores/TPs/TP1/TP1-Joao/_build/default/.ppx/330aca2838f5b1c41556ad7356f2af2e/ppx.exe'\'' --as-ppx'
 FLG -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A
